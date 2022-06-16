@@ -1,15 +1,17 @@
+
+
 #uname:valid{
     background-color: rgba(0, 128, 0, 0.527);
 }
 #uname:invalid{
-    background-color: rgba(255, 0, 0, 0.548);
+    background-color: rgba(255, 0, 0, 0.171);
 }
 
 #email:valid{
     background-color: rgba(0, 128, 0, 0.527);
 }
 #email:invalid{
-    background-color: rgba(255, 0, 0, 0.548);
+    background-color: rgba(255, 0, 0, 0.171);
 
 }
 
@@ -17,7 +19,7 @@
     background-color: rgba(0, 128, 0, 0.527);
 }
 #phone:invalid{
-    background-color: rgba(255, 0, 0, 0.548);
+    background-color: rgba(255, 0, 0, 0.171);
 
 }
 
@@ -25,29 +27,39 @@
     background-color: rgba(0, 128, 0, 0.527);
 }
 #zipCode:invalid{
-    background-color: rgba(255, 0, 0, 0.548);
+    background-color: rgba(255, 0, 0, 0.171);
 
 }
 #country:valid{
     background-color: rgba(0, 128, 0, 0.527);
 }
 #country:invalid{
-    background-color: rgba(255, 0, 0, 0.548);
+    background-color: rgba(255, 0, 0, 0.171);
 
 }
 #password:valid{
     background-color: rgba(0, 128, 0, 0.527);
 }
 #password:invalid{
-    background-color: rgba(255, 0, 0, 0.548);
+    background-color: rgba(255, 0, 0, 0.171);
 
 }
 #passwordCheck:valid{
-    background-color: rgba(255, 0, 0, 0.548);
-
+    background-color: rgba(0, 128, 0, 0.527);
 }#passwordCheck:invalid{
-    background-color: rgba(255, 0, 0, 0.548);
+    background-color: rgba(255, 0, 0, 0.171);
 
+}
+
+.highFive{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(36, 36, 99, 0.473);
+    background-image: url(./stickHiFive.png);
 }
 
 .form{

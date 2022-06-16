@@ -29,12 +29,16 @@
             <input type="zipCode" name="zipCode" id="zipCode" pattern="[0-9]{4}" required>
           </li>
           <li>
-            <label for="country">Country:</label>
-            <input type="text" name="country" id="country" required>
+            <label for="country">Country Code:</label>
+            <input type="text" name="country" id="country"  pattern="[A-Za-z]{3}" required>
           </li>
           <li>
             <label for="password">password:</label>
-            <input type="password" name="password" id="password" required>
+            <input type="password" name="password" id="password"  required>
+          </li>
+          <li>
+            <label for="passwordCheck">confirm password</label>
+            <input type="password" name="passwordCheck" id="passwordCheck" required>
           </li>
           <li>
             <button name="submitBtn" id="submit">create account</button>
