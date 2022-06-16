@@ -1,0 +1,71 @@
+#uname:valid{
+    background-color: rgba(0, 128, 0, 0.527);
+}
+#uname:invalid{
+    background-color: rgba(255, 0, 0, 0.548);
+}
+
+#email:valid{
+    background-color: rgba(0, 128, 0, 0.527);
+}
+#email:invalid{
+    background-color: rgba(255, 0, 0, 0.548);
+
+}
+
+#phone:valid{
+    background-color: rgba(0, 128, 0, 0.527);
+}
+#phone:invalid{
+    background-color: rgba(255, 0, 0, 0.548);
+
+}
+
+#zipCode:valid{
+    background-color: rgba(0, 128, 0, 0.527);
+}
+#zipCode:invalid{
+    background-color: rgba(255, 0, 0, 0.548);
+
+}
+#country:valid{
+    background-color: rgba(0, 128, 0, 0.527);
+}
+#country:invalid{
+    background-color: rgba(255, 0, 0, 0.548);
+
+}
+#password:valid{
+    background-color: rgba(0, 128, 0, 0.527);
+}
+#password:invalid{
+    background-color: rgba(255, 0, 0, 0.548);
+
+}
+#passwordCheck:valid{
+    background-color: rgba(255, 0, 0, 0.548);
+
+}#passwordCheck:invalid{
+    background-color: rgba(255, 0, 0, 0.548);
+
+}
+
+.form{
+    display: grid;
+    justify-content: center;
+    grid-template-rows:150px 250px ;
+    width: 100%;
+    border: 1px solid black;
+}
+.form > ul:not(#submit){
+    justify-content: center;
+    text-align: right;
+    list-style: none;
+}
+
+#submit{
+    position: relative;
+    bottom: -25px;
+    left: -50px;
+
+}
